@@ -1,9 +1,11 @@
- class simpleif {
+class Simpleif {
     public static void main(String[] args) {
-        int age = 20;
+        int number = 10;
 
-        if (age >= 18) {
-            System.out.println("You are eligible to vote");
+        if (number > 0) {
+            System.out.println("The number is positive.");
         }
+
+        System.out.println("Program finished.");
     }
 }
